@@ -1,0 +1,307 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Whats up",
+        "Howdy",
+        "Greetings",
+        "Sup",
+        "Yo",
+        "Good afternoon",
+        "Hi there",
+        "Hello there"
+      ],
+      "responses": [
+        "Hello! Welcome to University FAQ Bot! How can I assist you today?",
+        "Hi there! I'm here to help with any university-related questions!",
+        "Hey! What would you like to know about our university?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "Take care",
+        "Later",
+        "I am leaving",
+        "Farewell",
+        "See ya",
+        "Catch you later",
+        "Good night",
+        "That's all",
+        "Thanks bye"
+      ],
+      "responses": [
+        "Goodbye! Good luck with your studies!",
+        "See you later! Feel free to come back anytime!",
+        "Take care! Best of luck!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Appreciate it",
+        "Helpful",
+        "Great help",
+        "That helped",
+        "Thanks a lot",
+        "Many thanks",
+        "Much appreciated",
+        "Cheers"
+      ],
+      "responses": [
+        "You're welcome! Let me know if you need anything else.",
+        "Happy to help! Is there anything else you'd like to know?",
+        "Anytime! Feel free to ask more questions."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How do I apply?",
+        "What is the admission process?",
+        "How to get admission?",
+        "Application procedure",
+        "How to enroll?",
+        "Admission requirements",
+        "When is admission?",
+        "Can I apply online?",
+        "What documents needed for admission?",
+        "How to register?",
+        "Admission open?",
+        "Apply for university"
+      ],
+      "responses": [
+        "You can apply online through our university portal at university.edu/apply. The admission deadline is June 30th. Required documents include matric/FSc certificates, CNIC copy, and passport photos."
+      ]
+    },
+    {
+      "tag": "fee",
+      "patterns": [
+        "What is the fee?",
+        "How much does it cost?",
+        "Fee structure",
+        "Tuition fee",
+        "Semester fee",
+        "How much is tuition?",
+        "Fee details",
+        "Payment schedule",
+        "Fee breakdown",
+        "Annual fee",
+        "How much to study here?",
+        "Cost of study"
+      ],
+      "responses": [
+        "The semester fee varies by program. BS programs start at PKR 45,000/semester, MS at PKR 65,000/semester. Visit university.edu/fees for the complete fee structure. Installment plans are also available!"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses are offered?",
+        "Available programs",
+        "Which degrees?",
+        "What can I study?",
+        "List of programs",
+        "What subjects?",
+        "BS programs",
+        "MS programs",
+        "PhD programs",
+        "Undergraduate programs",
+        "Postgraduate options",
+        "Departments available"
+      ],
+      "responses": [
+        "We offer BS, MS, and PhD programs in Computer Science, Software Engineering, Electrical Engineering, Business Administration, and more. Visit university.edu/programs for the full list."
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "Is there a scholarship?",
+        "Financial aid",
+        "Fee waiver",
+        "Merit scholarship",
+        "How to get scholarship?",
+        "Scholarship criteria",
+        "Need based scholarship",
+        "Scholarship deadline",
+        "Who gets scholarship?",
+        "Free education",
+        "Discount on fee"
+      ],
+      "responses": [
+        "Yes! Merit-based scholarships are available for students with above 80% marks. Need-based financial aid is also offered. Apply at university.edu/scholarships before June 15th."
+      ]
+    },
+    {
+      "tag": "timing",
+      "patterns": [
+        "What are university hours?",
+        "When does university open?",
+        "Office timing",
+        "Working hours",
+        "What time does it open?",
+        "University schedule",
+        "When is university open?",
+        "Opening hours",
+        "When does it close?"
+      ],
+      "responses": [
+        "The university is open Monday to Friday, 8:00 AM to 5:00 PM, and Saturday from 9:00 AM to 1:00 PM. The library has extended hours until 9:00 PM on weekdays."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is the university?",
+        "University address",
+        "How to get there?",
+        "Location",
+        "Where are you located?",
+        "Directions",
+        "Campus location",
+        "How to reach?",
+        "Google maps",
+        "Which city?"
+      ],
+      "responses": [
+        "We are located at 123 University Road, Lahore. Easily accessible by public transport. You can find us on Google Maps by searching 'University FAQ Bot Campus Lahore'."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How to contact?",
+        "Phone number",
+        "Email address",
+        "Get in touch",
+        "Contact information",
+        "Support number",
+        "Helpline",
+        "Who to call?",
+        "Administration contact",
+        "Reach out",
+        "Talk to someone"
+      ],
+      "responses": [
+        "You can reach us at info@university.edu or call 042-1234567. Our WhatsApp support is also available at +92-300-1234567. Office hours are 9 AM to 4 PM."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "Is hostel available?",
+        "Accommodation",
+        "Do you have dorms?",
+        "Where can I stay?",
+        "Student housing",
+        "Hostel facility",
+        "Boys hostel",
+        "Girls hostel",
+        "On campus accommodation",
+        "Hostel fee",
+        "Room available?"
+      ],
+      "responses": [
+        "Yes, we have separate hostels for male and female students. The monthly hostel fee is PKR 8,000 including meals. Contact hostel@university.edu or visit the hostel office to apply."
+      ]
+    },
+    {
+      "tag": "transport",
+      "patterns": [
+        "Is there transport?",
+        "University bus",
+        "How to commute?",
+        "Transport facility",
+        "Bus service",
+        "Van service",
+        "Pick and drop",
+        "Routes available",
+        "Transport fee"
+      ],
+      "responses": [
+        "Yes! We offer bus services covering major routes in Lahore. The monthly transport fee is PKR 2,500. Contact transport@university.edu for routes and timings."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "Library",
+        "Books available",
+        "Study room",
+        "Reading room",
+        "Online library",
+        "E-books",
+        "Research papers",
+        "Library timings",
+        "Can I borrow books?"
+      ],
+      "responses": [
+        "Our library has over 50,000 books and access to online journals and research databases. Library hours are 8 AM to 9 PM (weekdays) and 9 AM to 5 PM (Saturday). Students can borrow up to 5 books at a time."
+      ]
+    },
+    {
+      "tag": "exams",
+      "patterns": [
+        "When are exams?",
+        "Exam schedule",
+        "Finals",
+        "Midterm",
+        "Date sheet",
+        "When are midterms?",
+        "Exam policy",
+        "How many exams?",
+        "Grading system",
+        "GPA"
+      ],
+      "responses": [
+        "Midterm exams are held in Week 7-8 and Final exams in Week 16-17 of each semester. Date sheets are announced 2 weeks before exams on the student portal. GPA is calculated on a 4.0 scale."
+      ]
+    },
+    {
+      "tag": "clubs",
+      "patterns": [
+        "Clubs",
+        "Societies",
+        "Extracurricular",
+        "Sports",
+        "Activities",
+        "Student organizations",
+        "Events",
+        "Cultural activities",
+        "Join a club",
+        "Coding club"
+      ],
+      "responses": [
+        "We have 20+ student clubs including Coding Club, Debating Society, Sports Teams, Literary Club, and more! Visit the student affairs office or check university.edu/clubs to join."
+      ]
+    },
+    {
+      "tag": "cafeteria",
+      "patterns": [
+        "Food",
+        "Cafeteria",
+        "Canteen",
+        "Lunch",
+        "Eat on campus",
+        "Food options",
+        "Restaurant on campus",
+        "Meal plan"
+      ],
+      "responses": [
+        "Our campus cafeteria is open from 8 AM to 6 PM and offers a variety of meals starting from PKR 150. We also have a dedicated food court with multiple options for all budgets."
+      ]
+    }
+  ]
+}
